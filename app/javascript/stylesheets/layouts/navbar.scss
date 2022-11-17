@@ -1,0 +1,28 @@
+// ホバーを適用させている
+.nav-link {
+  color: #DADFE5;
+  &:hover {
+    color: #FD3378;
+  }
+}
+// 現在のリンクの場合この色
+.active {
+  color: #FD3378;
+}
+// ホバーすると色が変わるため、上から塗りつぶす
+.fa-fire {
+  color: #DADFE5;
+}
+
+.fa-comments {
+  color: #DADFE5;
+}
+
+.fa-user {
+  color: #DADFE5;
+}
+
+// プロパティの値として inherit を指定することで、通常は継承しないプロパティであっても、親要素のプロパティ値を継承することができます。all を含めたすべてのプロパティで指定可能です。
+.inherit {
+  color: inherit;
+}
